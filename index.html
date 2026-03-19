@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | KRISHNA DENTAL PATNA ®️</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <div class="bg-blue-600 p-2 rounded-lg"><i data-lucide="tooth" class="text-white h-6 w-6"></i></div>
+                    <span class="text-blue-900 font-bold text-xl uppercase leading-none">Krishna Dental <span class="text-green-600 block text-xs">Patna ®️</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-semibold">
+                    <a href="index.html" class="text-blue-600 border-b-2 border-blue-600">Home</a>
+                    <a href="about.html" class="hover:text-blue-600">About</a>
+                    <a href="services.html" class="hover:text-blue-600">Services</a>
+                    <a href="gallery.html" class="hover:text-blue-600">Gallery</a>
+                    <a href="contact.html" class="hover:text-blue-600">Contact</a>
+                </div>
+                <button id="menu-btn" class="md:hidden p-2"><i data-lucide="menu"></i></button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden bg-white border-t p-4 space-y-4">
+            <a href="index.html" class="block font-bold text-blue-600">Home</a>
+            <a href="about.html" class="block">About Us</a>
+            <a href="services.html" class="block">Services</a>
+            <a href="gallery.html" class="block">Gallery</a>
+            <a href="contact.html" class="block">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 bg-gradient-to-br from-blue-50 to-white px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-green-100 text-green-700 px-4 py-1 rounded-full text-sm font-bold">ISO 9001:2015 Certified</span>
+                <h1 class="text-5xl font-extrabold text-blue-900 mt-6 leading-tight">World Class <br><span class="text-green-600">Dental Care</span> in Patna</h1>
+                <p class="text-lg text-gray-600 mt-4">Advanced Equipment | Proper Sterilization | Painless Treatment</p>
+                <div class="flex gap-4 mt-8">
+                    <a href="contact.html" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 shadow-lg transition">Book Appointment</a>
+                    <a href="tel:08210508110" class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition flex items-center gap-2">
+                        <i data-lucide="phone"></i> Call Now
+                    </a>
+                </div>
+                <div class="mt-8 flex items-center gap-2 text-yellow-500 font-bold">
+                    <i data-lucide="star" class="fill-current"></i> 4.8 <span class="text-gray-500 font-normal ml-2">(551+ Google Reviews)</span>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1629909606604-4a151163f6c3?auto=format&fit=crop&q=80&w=800" class="rounded-3xl shadow-2xl" alt="Dental Clinic">
+            </div>
+        </div>
+    </header>
+
+    <!-- Service Preview -->
+    <section class="py-20 max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Our Core Expertise</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border hover:shadow-xl transition">
+                <div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center text-blue-600 mb-6"><i data-lucide="layers"></i></div>
+                <h3 class="text-xl font-bold mb-3">Implant</h3>
+                <p class="text-gray-500">Permanent and natural-looking tooth replacement solution.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border hover:shadow-xl transition">
+                <div class="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center text-green-600 mb-6"><i data-lucide="activity"></i></div>
+                <h3 class="text-xl font-bold mb-3">Restorative</h3>
+                <p class="text-gray-500">Advanced RCT and crowns to save your natural teeth.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border hover:shadow-xl transition">
+                <div class="bg-yellow-100 w-12 h-12 rounded-lg flex items-center justify-center text-yellow-600 mb-6"><i data-lucide="sparkles"></i></div>
+                <h3 class="text-xl font-bold mb-3">Aesthetic</h3>
+                <p class="text-gray-500">Cosmetic dentistry for a bright, confident Hollywood smile.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 mt-20">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div>
+                <h3 class="text-xl font-bold mb-4">KRISHNA DENTAL PATNA ®️</h3>
+                <p class="text-gray-400">By Dr. Rahul Sir. Best dental clinic in Patna for all your oral health needs.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Contact info</h3>
+                <p class="text-gray-400">Kumhrar, Kankarbagh Main Rd, Patna</p>
+                <p class="text-blue-400 font-bold">08210508110</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                <div class="flex gap-4">
+                    <a href="https://www.facebook.com/Krishnadentalpatna/" class="hover:text-blue-500"><i data-lucide="facebook"></i></a>
+                    <a href="https://www.instagram.com/krishnadentalpatna/" class="hover:text-pink-500"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        document.getElementById('menu-btn').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
