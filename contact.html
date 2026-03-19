@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | KRISHNA DENTAL PATNA ®️</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 pt-32">
+    <nav class="fixed top-0 w-full bg-white/95 shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center">
+            <span class="text-blue-900 font-bold text-xl">KRISHNA DENTAL <span class="text-green-600">PATNA</span></span>
+            <div class="hidden md:flex space-x-8 font-semibold">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html" class="text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 pb-20">
+        <div class="grid lg:grid-cols-2 gap-12">
+            <div>
+                <h1 class="text-4xl font-bold text-blue-900 mb-6">Get in Touch</h1>
+                <p class="text-gray-600 mb-8">Have a dental emergency? Or want to book a routine checkup? Contact us now.</p>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="bg-blue-100 p-3 rounded-lg text-blue-600"><i data-lucide="map-pin"></i></div>
+                        <p class="text-gray-600">Kriti Fuel, Kankarbagh Main Rd, opp. H.P petrol pump, near Laddu Gopal Sweets, Kumhrar, Patna, Bihar 800026</p>
+                    </div>
+                    <a href="tel:08210508110" class="flex gap-4 group">
+                        <div class="bg-blue-100 p-3 rounded-lg text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i data-lucide="phone"></i></div>
+                        <p class="font-bold text-lg text-blue-900 self-center">08210508110</p>
+                    </a>
+                    <div class="flex gap-4">
+                        <div class="bg-blue-100 p-3 rounded-lg text-blue-600"><i data-lucide="mail"></i></div>
+                        <p class="text-gray-600 self-center">krishnadentalpat@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="mt-8 rounded-2xl overflow-hidden shadow-lg h-64 border">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.113264639423!2d85.1788!3d25.5941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM1JzM4LjgiTiA4NcKwMTAnNDMuNyJF!5e0!3m2!1sen!2sin!4v1620000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-xl border">
+                <form class="space-y-6" onsubmit="event.preventDefault(); alert('Message Received! We will call you back.')">
+                    <div>
+                        <label class="block font-bold mb-2">Name</label>
+                        <input type="text" class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-200" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label class="block font-bold mb-2">Phone</label>
+                        <input type="tel" class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-200" placeholder="Mobile Number">
+                    </div>
+                    <div>
+                        <label class="block font-bold mb-2">Message</label>
+                        <textarea class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-200" rows="4" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl shadow-lg hover:bg-blue-700 transition">Submit Appointment Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
